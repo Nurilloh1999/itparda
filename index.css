@@ -188,6 +188,10 @@ body{
 
 
     }
+    .navbar-container{
+        background-color: rgb(228, 234, 239);
+
+    }
     
      .content-container img{
         width:inherit;
