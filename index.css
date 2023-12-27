@@ -82,34 +82,47 @@ body{
 
 
     .navbar-container{
-        font-size: 12px;
        
+        background-color: rgb(106, 156, 197);
+        width: 100%;
        
         color: black;
-        padding-right: 10px;
-        padding-top: 5px;
         
-        background-color: aquamarine;
+        
+    } 
+    .navbar-container .imglink{
+        height: 40px;
+        width: 40px;
+        border-radius: 6px;
+        margin-left: 20px;
+       
+
     }
-    .navbar-container h3{
+    .navbar-container .imglink:active{
+        height: 50px;
+        width: 50px;
+
+        
+    }
+
+    .navbar-container .sign-up-img{
         margin-left:auto;
+        height: 40px;
+        width: 100px;
+        border-radius: 15px;
+    }
+    .navbar-container .sign-up-img:active {
+        height:45px;
+        width: 105px;
+    }
+    .footer-container .contact-img:active{
+        height:45px;
+        width: 105px;
     }
 
 
-    .h3lar{
-        height: max-content;
-        width: max-content;
-        border-radius: 10px;
-        background-color: rgb(241, 213, 6);
-        color:black;
-        padding: 5px;
-        transform:rotate(1s);
-
-    }
-    .h3lar:active{
-        background-color: rgb(163, 163, 179);
-        color: black;
-    }
+    
+    
 
     .main-container{
         display: flex;
@@ -130,16 +143,13 @@ body{
         border-radius: 10px;
         margin-left: auto;
     }
-    .footer-container img:hover{
-        cursor: pointer;
-        height: 40px;
-        width: 40px;
+    .footer-container .imgfang:active{
+    
+        height: 50px;
+        width: 50px;
 
     }
-    .footer-container img:active{
-        height: 30px;
-        width: 30px;
-    }
+    
     .footer-container{
         width: 100%;
         height: max-content;
@@ -149,14 +159,18 @@ body{
         padding: 10px;
         
     }
-    .footer-container h3{
+    .footer-container .contact-img{
         margin-right: auto;
-        font-size: 14px;
+       
+        height: 40px;
+        width: 100px;
+        border-radius: 15px;
         
     }
     .icons-link-container{
         height: 100%;
-        width: 100%;display: flex;
+        width: 100%;
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -189,8 +203,11 @@ body{
 
 
     }
-    .navbar-container{
-        background-color: rgb(228, 234, 239);
+    
+    .navbar-container b{
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 20px;
 
     }
     
@@ -235,6 +252,7 @@ body{
         color: green;
         font-weight: 500px;
     }
+
   
  
 
