@@ -90,6 +90,18 @@ body{
         
         
     } 
+    .navbar-links-title{
+       
+        background-color: green;
+        width: max-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        
+
+    }
     .navbar-container .imglink{
         height: 40px;
         width: 40px;
@@ -114,6 +126,12 @@ body{
     .navbar-container .sign-up-img:active {
         height:45px;
         width: 105px;
+    }
+    .sign-up-img-container{
+        margin-left: auto;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
     }
     .footer-container .contact-img:active{
         height:45px;
@@ -142,6 +160,16 @@ body{
         width: 30px;
         border-radius: 10px;
         margin-left: auto;
+    }
+    .footer-container .imgfang-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+        gap: 6px;
+        
     }
     .footer-container .imgfang:active{
     
@@ -173,8 +201,9 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+       
         gap: 6px;
+        background-color: red;
     }
     .main-container{
         box-sizing: border-box;
@@ -207,7 +236,7 @@ body{
     .navbar-container b{
         font-size: 28px;
         font-weight: 900;
-        margin-left: 20px;
+       
 
     }
     

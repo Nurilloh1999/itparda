@@ -60,6 +60,31 @@
             .submit-button:active{
                 background-color: rgb(126, 223, 126);
             }
+            .google-account-container{
+                height: 100px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(224, 221, 221);
+                border-radius: 20px;
+            }
+            .google-account-container .img-google-icon{
+              height: 100px;
+              width: 100px;
+              border-radius: 50%;
+              margin-right: auto;
+            }
+            .google-account-container .with-google{
+                font-size: 24px;
+                color: black;
+                text-align: center;
+            }
+            .google-account-container:active{
+                opacity: 50%;
+            }
+
+
+
 
 
         }
@@ -68,13 +93,20 @@
 <body>
     <form action="" class="form-container ">
         <input type="text" name="ism" id="ism" placeholder="Ism" class="ism-input">
-        <input type="text" name="familya" id="familya" placeholder="Family" class="familya-input">
+        <input type="text" name="familya" id="familya" placeholder="Familya" class="familya-input">
         <input type="email" name="email" id="email" placeholder="Email" class="email-input">
         <div class="checkbox-input-container">
 
         </div>
-        <b>Yangi kuponlar berilsinmi?</b>
+        <b>Yangi kuponlar xabarlari berilsinmi?</b>
         <input type="checkbox" name="checkbox" id="checkbox" placeholder="Check" class="checkbox-input">
+     <a href="#">
+         <div class="google-account-container">
+            <img src="googleicon.jpg" alt="googleicon" class="img-google-icon">
+            <b class="with-google">Google hisob bilan davom etaman</b>
+         </div>
+    </a>
+
         <button type="submit" class="submit-button" id="btn">Jo'natish</button>
     </form>
     
